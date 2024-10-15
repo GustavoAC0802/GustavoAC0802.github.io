@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9FFE2;
+}
+
+.BarraNav{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 99%;
+    height: 90px;
+    margin: 7.5px;
+    padding: 0px 25px 0px 24px;
+    border-radius: var(--Rounded, 20px);
+    background-color: var(--Primary, #abffd1);
+}
+
+.Logo{
+    display: inline-block;
+    color: #093659;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.secoes{
+    font-family: "Font-2 ";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 604px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li{
+    display: flex;
+    padding: 10px 10px;
+    align-items: flex-start;
+    gap: 48px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    padding: auto;
+    color: #093659;
+}
+
+.principal{ /*Caso der erro, mudar aqui(Main)*/
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.areasobre{
+    width: 40%;
+
+} 
+
+.TituloI{
+    color: #145D87;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 30px;
+}
+
+.InfoSobre{
+    text-align: justify;
+}
+
+p{
+    font-family: "Chakra Petch", sans-serif;
+    color: #228399;
+    font-size: 20px;
+}
+
+h2{
+    color:#145D87;
+    font-family: "Chakra Petch", sans-serif;
+
+}
+
+hr{
+    margin-top: 15px;
+    border: none; 
+    height: 2px; 
+    background-color: #145D87; 
+    margin: 20px 0;
+}
+
+h3{
+    color: #228399;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.formas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+
+
+}
+
+.Formações{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    column-gap: 20px;
+}
+
+.Formação{
+    margin-top: 15px;
+    display: flex;
+    flex: 1 1 30%;
+    flex-direction: column;
+    border-radius: var(--Rounded, 20px);
+    background-color: var(--Primary, #abffd1);
+    align-items: center;
+    padding:1rem ;
+    height: auto;
+    width: 100%;
+
+}
+
+.f4{
+    flex-basis: 100%;
+}
+
+.titulos{
+    display: flex;
+    color: #093659;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.Projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.carroinfo{
+    margin-top: 15px;
+    width: 98%;
+    height: 350px;
+    position: relative;
+    background-color: #abffd1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.projetin{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    color: #D9FFE2;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgpj{
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+    align-self: baseline;
+
+}
+
+.imgjogo{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    align-self: baseline;
+}
+
+#API:checked ~ #Bloco1,
+#TCC:checked ~ #Bloco2{
+    opacity: 1;
+}
+
+.navcarro{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navcarro label{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #228399;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+#API:checked ~ .navcarro label[for="API"],
+#TCC:checked ~ .navcarro label[for="TCC"]{
+    background-color: #093659;
+}
+
+.pj1{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    padding: 15px;
+}
+
+.pj2{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    padding: 15px;
+}
+
+.Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.comp{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    column-gap: 20px;
+}
+
+.hab{
+    margin-top: 15px;
+    display: flex;
+    flex: 1 1 30%;
+    flex-direction: column;
+    border-radius: var(--Rounded, 20px);
+    background-color: var(--Primary, #abffd1);
+    align-items: center;
+    padding:1rem ;
+    height: auto;
+    width: 98%;
+
+}
+
+.imgs{
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.imgs:hover{
+    transform: scale(1.15);
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #D9FFE2;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #228399;
+    border-radius: 50px;
+    border: 3px solid #145d87;
+} 
