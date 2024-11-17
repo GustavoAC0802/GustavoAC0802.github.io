@@ -1,0 +1,471 @@
+@media screen and (min-width:300px) and (max-width:340px) {
+    .BarraNav{
+        width: auto;
+        height: auto;
+    }
+
+    .Logo{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .secoes{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    nav{
+        width: auto;
+    }
+
+    ul{
+        display: grid;
+        padding: 0px 0px 0px 8.5px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        width: auto;
+    }
+
+    li{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .eu{
+        margin-top: 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .InfoSobre{
+        text-align: center;
+    }
+
+    .botao{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    .TituloI{
+        font-size: 18px;
+    }
+
+    .formas{
+        column-gap: 5px;
+    }
+
+    .Formação{
+        margin: 7.5px;
+    }
+
+    .tudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .imgpj{
+        height: 115px;
+    }
+
+    .imgjogo{
+        height: 100px;
+        width: auto;
+        padding: 0;
+    }
+
+    .imgs{
+        height: 75px;
+        width: 75px;
+    }
+
+    .certificados{
+        align-items: center;
+        padding-left: 7.5px;
+    }
+
+    .certi{
+        height: 175px;
+        width: 250px;
+    }
+    
+    .resp{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cntt{
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media screen and (min-width:321px) and (max-width:380px) {
+    .BarraNav{
+        width: auto;
+        height: auto;
+    }
+
+    .Logo{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .secoes{
+        font-size: 12.5px;
+        text-align: center;
+    }
+
+    nav{
+        width: auto;
+    }
+
+    ul{
+        display: grid;
+        padding: 0px 0px 0px 8.5px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        width: auto;
+    }
+
+    li{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .eu{
+        margin-top: 10px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .InfoSobre{
+        text-align: center;
+    }
+
+    .botao{
+        font-size: 13.5px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .TituloI{
+        font-size: 20px;
+    }
+
+    .arruma{
+        margin-top: 80px;
+    }
+
+    /* Curriculo */
+
+    .formas{
+        column-gap: 5px;
+    }
+    
+    .Formação{
+        margin: 5px 0 0 7px;       
+        margin-top: 10px;
+    }
+
+    .tudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Projetos{
+        margin-top: 20px;
+    }
+
+    .projeto{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .imgpj{
+        height: 125px;
+    }
+
+    .imgjogo{
+        height: 115px;
+        width: auto;
+        padding: 0;
+    }
+
+    .arruma2{
+        margin-top: 50px;
+    }
+
+    .imgs{
+        height: 85px;
+        width: 85px;
+    }
+
+    .certificados{
+        align-items: center;
+        padding-left: 7.5px;
+    }
+
+    .certi{
+        height: 190px;
+        width: 275px;
+    }
+    
+    .resp{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cntt{
+        width: 70px;
+        height: 70px;
+    }
+
+    .footerinfo{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width:381px) and (max-width:426px) {
+    .BarraNav{
+        width: auto;
+        height: auto;
+    }
+
+    .Logo{
+        margin-top: 18px;
+        font-size: 20px;
+    }
+
+    .secoes{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    nav{
+        width: auto;
+    }
+
+    ul{
+        display: grid;
+        padding: 0px 0px 0px 8px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        width: auto;
+    }
+
+    li{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .eu{
+        margin-top: 10px;
+        width: 185px;
+        height: 185px;
+    }
+
+    .InfoSobre{
+        text-align: center;
+    }
+
+    .botao{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .TituloI{
+        font-size: 22.5px;
+    }
+
+    .arruma{
+        margin-top: 140px;
+    }
+
+    /* Curriculo */
+
+    .formas{
+        column-gap: 5px;
+    }
+    
+    .Formação{
+        margin: 5px 0 0 7px;       
+        margin-top: 12px;
+    }
+
+    .tudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Projetos{
+        margin-top: 65px;
+    }
+
+    .projeto{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .imgpj{
+        height: 140px;
+    }
+
+    .imgjogo{
+        height: 130px;
+        width: auto;
+        padding: 0;
+    }
+
+    .arruma2{
+        margin-top: 85px;
+    }
+
+    .imgs{
+        height: 85px;
+        width: 85px;
+    }
+
+    .certificados{
+        align-items: center;
+        padding-left: 7.5px;
+    }
+
+    .certi{
+        height: 200px;
+        width: 325px;
+    }
+    
+    .resp{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cntt{
+        width: 70px;
+        height: 70px;
+    }
+
+    .footerinfo{
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (min-width: 700px)and (max-width:768px) {
+    .BarraNav{
+        width: auto;
+        height: auto; 
+        padding: 8px;
+    }
+
+    .Logo{
+        font-size: 25px;
+    }   
+
+    ul{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    li{
+        align-items: center;
+    }
+
+    .secoes{
+        font-size: 16px;
+    }
+
+    .eu{
+        width: 190px;
+        height: 190px;
+    }
+
+    .InfoSobre{
+        text-align: center;
+    }
+
+    .secSobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    .hab{
+        display: flex;
+        flex: 1 1 10% ;
+    }
+
+    .imgs{
+        height: 105px;
+        width: 105px;
+    }
+
+    .certi{
+        width: 500px;
+        height: 375px;
+    }
+    
+}
